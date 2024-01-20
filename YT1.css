@@ -1,0 +1,108 @@
+
+*
+{
+ margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+
+ #main
+ {
+     background-image: url(media/tula-russia-may-242019-apple-260nw-1409296754\ \(1\).jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 100vh;
+ }
+
+ #navbar
+ {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     background-color:#100a20  ;
+     position: fixed;
+     z-index: 5;
+     top:0
+ }
+
+
+ header ul{
+     display: flex;
+     float: right;
+     gap: 30px;
+     margin-top: 40px;
+     margin-right: 30px;
+     
+ }
+
+ header ul li{
+     color: white;
+     cursor: pointer;
+     list-style: none;
+
+ }
+
+ .container1
+ {
+     position: relative;
+     min-height: 180px;
+     max-width: 500px;
+     border-radius: 50px;
+     left: 200px;
+     top: 300px;
+     text-align: center;
+     border: 2px solid white;
+     background: transparent;
+     backdrop-filter: blur(8px);
+ }
+
+ #urls, #urlss
+     {
+         display: none;
+         font-size: large;
+     }
+
+ #cn,#vt
+     {
+         color: white;
+         font-size: large;
+     }
+
+ .Guide
+ {
+     background-color:#100a20  ;
+     color: white;
+     font-size: large;
+     max-width: 100%;
+     position: relative;
+     top: 650px;
+ }
+
+ .bt
+ {
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   border-radius: 10px;
+   border-style: none;
+   font-size: large;
+   cursor: pointer;
+   height: 30px;
+   width: 30px;
+ }
+
+ .footer
+ {
+     background-color: #100a20;
+     color: white;
+     text-align: center;
+     font-size: large;
+     position: relative;
+     top: 100px;
+ }
+
+ @media only screen and (max-width: 850px) 
+ {
+.container1{
+ left: 50px;
+}
+}
